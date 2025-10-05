@@ -1,0 +1,128 @@
+{
+  "id": "b9cb4caa-5e47-455b-88a7-25a9e1a23ba0",
+  "parentId": "db0cda99-0980-4e54-b8b6-3b689657e59e",
+  "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+  "name": "Bem.suboption",
+  "auto": true,
+  "contexts": [
+    "Desabafo_option"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Bem_suboption",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "414bf5a4-62f0-4476-ae9b-376c6ee8bb82",
+          "name": "nome",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "value": "$nome",
+          "defaultValue": "#Desabafo_option.nome",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Que ótimo!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "platform": "telegram",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se $nome está bem, Vivi fica feliz por isso 🤗"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Tá afim de receber algumas dicas de bem-estar?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "Sim",
+                      "text": "Sim"
+                    },
+                    {
+                      "callback_data": "Não",
+                      "text": "Não"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Que ótimo!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se $nome está bem, Vivi fica feliz por isso 🤗"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Tá afim de receber algumas dicas de bem-estar?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

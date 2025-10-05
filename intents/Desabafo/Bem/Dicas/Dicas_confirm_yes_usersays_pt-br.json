@@ -1,0 +1,80 @@
+[
+  {
+    "id": "7ac06eb5-cb3d-4fa3-90f6-3cf83a5b33ce",
+    "data": [
+      {
+        "text": "quero",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2548cec5-dc65-417b-b6f9-e585339010c1",
+    "data": [
+      {
+        "text": "positivo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b8d34fb9-88e0-4280-90ea-cefcde7f7c19",
+    "data": [
+      {
+        "text": "pode ser",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "472e2a77-325b-44c3-97aa-bea60954246d",
+    "data": [
+      {
+        "text": "aceito",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "cdca7733-626c-42b9-b7c4-2e197864e7d4",
+    "data": [
+      {
+        "text": "claro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0d36bc5e-cda8-4e55-a8db-ecf44487d010",
+    "data": [
+      {
+        "text": "sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

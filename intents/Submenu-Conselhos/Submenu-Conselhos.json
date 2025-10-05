@@ -1,0 +1,100 @@
+{
+    "id": "16f09451-7ae6-4fee-bc22-4a3665a8a919",
+    "name": "Submenu-Conselhos",
+    "auto": true,
+    "contexts": ["Submenu-Conselhos"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Conselhos_option",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "a9b17f6f-b128-45c4-86ce-1cf6c72a6d4c",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Submenu-Conselhos.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "text": "Certo! Sobre quais temas você deseja receber conselhos?",
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "text": "Ansiedade",
+                                            "callback_data": "Ansiedade"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Síndrome do Impostor",
+                                            "callback_data": "Síndrome do Impostor"
+                                        }
+                                    ]
+                                ]
+                            }
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Certo $nome! Sobre quais temas você deseja receber conselhos?"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Basta digitar uma das opções abaixo:"],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["1. Ansiedade\n2. Síndrome do Impostor"],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

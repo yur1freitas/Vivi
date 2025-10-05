@@ -1,0 +1,44 @@
+{
+    "id": "13e56ef2-87ae-4c8f-9ce7-9df64f801479",
+    "parentId": "16f09451-7ae6-4fee-bc22-4a3665a8a919",
+    "rootParentId": "16f09451-7ae6-4fee-bc22-4a3665a8a919",
+    "name": "Submenu-Conselhos.fallback",
+    "contexts": ["Conselhos_option"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Conselhos_option",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "🤔 Vish rapaz, acho que você digitou errado..."
+                    ],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

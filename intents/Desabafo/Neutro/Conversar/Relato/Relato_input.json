@@ -1,0 +1,159 @@
+{
+    "id": "2cfc2cfd-6b47-4c61-a348-e05895ecc7ff",
+    "parentId": "b3584cfb-f166-43a9-a50a-456e08933ea3",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Relato.input",
+    "auto": true,
+    "contexts": ["Conversar_confirm_yes"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Menu-Principal",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Sair",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "0423f556-d5c8-4e9c-91d6-02634a9bb5f7",
+                    "name": "relato",
+                    "required": false,
+                    "dataType": "@sys.any",
+                    "value": "$relato",
+                    "defaultValue": "",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                },
+                {
+                    "id": "06879d27-c32c-468f-953b-de142b2a5c87",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Conversar_confirm_yes.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["😔 Sinto muito..."],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Realmente gostaria de poder ajudar, mas até eu tenho minhas limitações..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Espero que poder desabafar tenha tirado um pouco o peso de seus ombros 😊"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "callback_data": "Sim",
+                                            "text": "Sim"
+                                        },
+                                        {
+                                            "text": "Não",
+                                            "callback_data": "Não"
+                                        }
+                                    ]
+                                ]
+                            },
+                            "text": "Você ainda quer conversar?"
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["😔 Sinto muito..."],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Realmente gostaria de poder ajudar, mas até eu tenho minhas limitações..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Espero que poder desabafar tenha tirado um pouco o peso de seus ombros 😊"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Você ainda quer conversar?"],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

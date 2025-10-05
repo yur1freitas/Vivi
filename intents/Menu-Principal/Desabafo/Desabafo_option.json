@@ -1,0 +1,127 @@
+{
+  "id": "db0cda99-0980-4e54-b8b6-3b689657e59e",
+  "parentId": "aaee8506-b65c-4165-9846-b6dc40e77539",
+  "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+  "name": "Desabafo.option",
+  "auto": true,
+  "contexts": [
+    "Nome_input"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Desabafo_option",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7643d2bb-d29c-4dbc-96da-1adf7375e0d2",
+          "name": "nome",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "value": "$nome",
+          "defaultValue": "#Nome_input.nome",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Fico feliz que tenha que confie em mim $nome para desabafar..."
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "Bem",
+                      "text": "Bem"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Mais ou menos",
+                      "callback_data": "Mais ou menos"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Mal",
+                      "callback_data": "Mal"
+                    }
+                  ]
+                ]
+              },
+              "text": "Então... como está se sentido?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Fico feliz que confie em mim $nome para desabafar..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Então... como está se sentido?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "1. Mal\n2. Mais ou menos\n3. Bem"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

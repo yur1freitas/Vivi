@@ -1,0 +1,80 @@
+[
+  {
+    "id": "d93b4dd1-5ee2-4fdf-bb5f-efffc634a82c",
+    "data": [
+      {
+        "text": "um",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "bc5fe18e-8371-44b7-9a0c-cdb2ce427786",
+    "data": [
+      {
+        "text": "1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "23f253dd-30a0-40b8-8490-6cbd0c49cecb",
+    "data": [
+      {
+        "text": "quero desabafar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "85d700f7-da17-43b9-af7a-3b241376f478",
+    "data": [
+      {
+        "text": "se abrir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6d79e0be-fd71-4be6-8a83-702002cce975",
+    "data": [
+      {
+        "text": "desabafar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "815ca23d-cee1-4f45-b125-9b8a98af6059",
+    "data": [
+      {
+        "text": "desabafo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

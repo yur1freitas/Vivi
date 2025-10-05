@@ -1,0 +1,67 @@
+[
+  {
+    "id": "b08811a7-64b4-46ad-a058-36072a13ef04",
+    "data": [
+      {
+        "text": "um",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6909f8d8-0cc8-460e-b477-0baab4fd28af",
+    "data": [
+      {
+        "text": "1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9b1b21aa-bf53-4e71-bdfa-37829317cd3b",
+    "data": [
+      {
+        "text": "transtorno de ansiedade",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4cbf40b6-b76b-4a9e-9737-7cac0dbe471f",
+    "data": [
+      {
+        "text": "ansioso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "decdfa57-bc6e-4887-aec6-38240ec9640e",
+    "data": [
+      {
+        "text": "ansiedade",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

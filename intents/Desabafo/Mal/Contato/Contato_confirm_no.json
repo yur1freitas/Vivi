@@ -1,0 +1,130 @@
+{
+    "id": "9f183722-f6fb-4963-a1e6-278acb7fb0b9",
+    "parentId": "c16419dc-ef22-4cbd-ad4e-d4564ade8520",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Contato.confirm.no",
+    "auto": true,
+    "contexts": ["Mal_suboption"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Menu-Principal",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Sair",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "bd9934c5-2d8c-4976-b491-ccf2a6d6635b",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Mal_suboption.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "😔 Entendo, as vezes pode ser difícil sair dessa situação..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Mas saiba que estou aqui para conversar sempre que precisar $nome..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "callback_data": "Sim",
+                                            "text": "Sim"
+                                        },
+                                        {
+                                            "callback_data": "Não",
+                                            "text": "Não"
+                                        }
+                                    ]
+                                ]
+                            },
+                            "text": "Se quiser ainda podemos continuar conversando, você quer?"
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Entendo, as vezes pode ser difícil sair dessa situação..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Mas saiba que estou aqui para conversar sempre que precisar $nome..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Se quiser ainda podemos continuar conversando, você quer?"
+                    ],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

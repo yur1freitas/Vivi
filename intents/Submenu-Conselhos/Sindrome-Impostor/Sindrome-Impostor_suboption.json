@@ -1,0 +1,170 @@
+{
+    "id": "a54a5888-ef7b-4fa2-a2e9-bd21febf4b37",
+    "parentId": "2cad38bd-6b1d-4001-888d-747db2841a35",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Sindrome-Impostor.suboption",
+    "auto": true,
+    "contexts": ["Conselhos_option"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Sindrome-Impostor_suboption",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Submenu-Conselhos",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "39905a10-b81d-4869-a299-982dac101055",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Conselhos_option.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "A síndrome do impostor é realmente perturbadora..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Mas saiba que erro é diferente de incompetência, todas as pessoas erram e aprendem com isso."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Além disso, saiba que a sorte favorece quem está preparado para recebê-la..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Veja até onde você chegou e seja grato por tudo que conquistou! Não se diminua, ame a si mesmo 🥰"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "text": "Deseja receber outros conselhos?",
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "callback_data": "Sim",
+                                            "text": "Sim"
+                                        },
+                                        {
+                                            "text": "Não",
+                                            "callback_data": "Não"
+                                        }
+                                    ]
+                                ]
+                            }
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "A síndrome do impostor é realmente perturbadora..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Mas saiba que erro é diferente de incompetência, todas as pessoas erram e aprendem com isso."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Além disso, saiba que a sorte favorece quem está preparado para recebê-la..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Veja até onde você chegou e seja grato por tudo que conquistou! Não se diminua, ame a si mesmo 🥰"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Deseja receber outros conselhos?"],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

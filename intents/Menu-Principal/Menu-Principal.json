@@ -1,0 +1,113 @@
+{
+    "id": "dc1ced59-2fe4-44f2-b3f0-8cc41f7831be",
+    "name": "Menu-Principal",
+    "auto": true,
+    "contexts": ["Menu-Principal"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Nome_input",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "f96b7318-c21c-4246-bfe9-696565f26d3f",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Menu-Principal.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "text": "😊 Fico feliz que queira continuar conversando. Mas sobre o quê quer conversar?"
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "text": "Você poderia clicar em uma das opções abaixo?",
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "callback_data": "Desabafar",
+                                            "text": "Desabafar"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "text": "Conselhos",
+                                            "callback_data": "Conselhos"
+                                        }
+                                    ]
+                                ]
+                            }
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "😊 Fico feliz que queira continuar conversando $nome. Mas sobre o quê quer conversar?"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Você poderia digitar uma das opções abaixo?"],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["1. Desabafar\n2. Conselhos"],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

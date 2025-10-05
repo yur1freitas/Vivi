@@ -1,0 +1,54 @@
+[
+    {
+        "id": "00651f47-e8b4-476c-9167-6e4fcd4cb8cf",
+        "data": [
+            {
+                "text": "dois",
+                "userDefined": false
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "lang": "pt-br",
+        "updated": 0
+    },
+    {
+        "id": "b5565311-dbfa-45cc-abc3-f8a00977da45",
+        "data": [
+            {
+                "text": "2",
+                "userDefined": false
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "lang": "pt-br",
+        "updated": 0
+    },
+    {
+        "id": "9c99ffe6-01da-4a85-b95c-a5fb7bdc6692",
+        "data": [
+            {
+                "text": "impostor",
+                "userDefined": false
+            }
+        ],
+        "isTemplate": false,
+        "count": 1,
+        "lang": "pt-br",
+        "updated": 0
+    },
+    {
+        "id": "1f34f08a-7edc-4680-b190-3515b5b339b7",
+        "data": [
+            {
+                "text": "síndrome do impostor",
+                "userDefined": false
+            }
+        ],
+        "isTemplate": false,
+        "count": 0,
+        "lang": "pt-br",
+        "updated": 0
+    }
+]

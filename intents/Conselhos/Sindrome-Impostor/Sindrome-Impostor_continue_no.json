@@ -1,0 +1,86 @@
+{
+    "id": "ef68c39e-1af7-4e02-be23-75d58cff694b",
+    "parentId": "a54a5888-ef7b-4fa2-a2e9-bd21febf4b37",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Sindrome-Impostor.continue.no",
+    "auto": true,
+    "contexts": ["Sindrome-Impostor_suboption"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Menu-Principal",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Sair",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "dbba3cbe-5393-4cfb-b487-a5e9e2107317",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Sindrome-Impostor_suboption.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "text": "Você deseja continuar conversando?",
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "callback_data": "Sim",
+                                            "text": "Sim"
+                                        },
+                                        {
+                                            "text": "Não",
+                                            "callback_data": "Não"
+                                        }
+                                    ]
+                                ]
+                            }
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Você deseja continuar conversando?"],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

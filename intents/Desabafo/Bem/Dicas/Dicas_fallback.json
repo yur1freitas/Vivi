@@ -1,0 +1,42 @@
+{
+    "id": "6050c8de-8ea0-4d19-baa4-4d91585edb2e",
+    "parentId": "b9cb4caa-5e47-455b-88a7-25a9e1a23ba0",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Dicas.fallback",
+    "contexts": ["Bem_suboption"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Bem_suboption",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Desculpe, mas não compreendi..."],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

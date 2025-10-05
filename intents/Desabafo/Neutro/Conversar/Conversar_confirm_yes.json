@@ -1,0 +1,68 @@
+{
+    "id": "b3584cfb-f166-43a9-a50a-456e08933ea3",
+    "parentId": "b82fecab-8d78-4da5-930b-2c4fe12124cc",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Conversar.confirm.yes",
+    "auto": true,
+    "contexts": ["Neutro_suboption"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Conversar_confirm_yes",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "5a816cdc-38e5-46b5-aa31-032e0e061b21",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Neutro_suboption.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Você pode me contar um pouco do que está te incomodando"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Eu vou ouvir com atenção..."],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

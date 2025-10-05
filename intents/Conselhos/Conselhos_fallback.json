@@ -1,0 +1,42 @@
+{
+    "id": "aa66fd21-202b-4f92-b6c1-36d3e6cd1a61",
+    "parentId": "2cad38bd-6b1d-4001-888d-747db2841a35",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Conselhos.fallback",
+    "contexts": ["Conselhos_option"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Conselhos_option",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["🤨 Eita... não entendi. Poderia repetir?"],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

@@ -1,0 +1,45 @@
+{
+    "id": "3fd110dd-9cf9-4d2d-ade4-a60bc8457b72",
+    "name": "Final.fallback",
+    "auto": true,
+    "contexts": ["Menu-Principal", "Sair"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Menu-Principal",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Sair",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "😅 Ops! Estou meio desatenta, poderia repetir?",
+                        "😅 Desculpe! Não entendi o que disse, poderia repetir?"
+                    ],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

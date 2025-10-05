@@ -1,0 +1,180 @@
+{
+    "id": "5b121108-e262-4d69-bdbe-6ca71ca4e2cc",
+    "parentId": "2cad38bd-6b1d-4001-888d-747db2841a35",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Ansiedade.suboption",
+    "auto": true,
+    "contexts": ["Conselhos_option"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Ansiedade_suboption",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Submenu-Conselhos",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "e84368e5-d611-4daa-8b64-3b6c5f3a2b12",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Conselhos_option.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Entendo... ansiedade é complicada de se lidar e geralmente anda lado a lado com a depressão"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Pode parecer óbvio, mas procurar ajuda profissional é importante, principalmente para ajudá-lo(a) a organizar seus pensamentos e aliviar ansiedade aos poucos com dedicação..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Além disso $nome, atividade física pode ajudar a deixá-lo(a) menos pensativo(a) e evitar coisas que podem intensificar a sensação, como cafeína, pornografia, redes sociais, etc."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Espero que esses conselhos tenham sido úteis $nome 🫶"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "text": "Sim",
+                                            "callback_data": "Sim"
+                                        },
+                                        {
+                                            "callback_data": "Não",
+                                            "text": "Não"
+                                        }
+                                    ]
+                                ]
+                            },
+                            "text": "Deseja receber outros conselhos?"
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Entendo... ansiedade é complicada de se lidar e geralmente anda lado a lado com a depressão"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Pode parecer óbvio, mas procurar ajuda profissional é importante, principalmente para ajudá-lo(a) a organizar seus pensamentos e aliviar ansiedade aos poucos com dedicação..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Além disso $nome, atividade física pode ajudar a deixá-lo(a) menos pensativo(a) e evitar coisas que podem intensificar a sensação, como cafeína, pornografia, redes sociais, etc."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Vale lembrar também que nem sempre se sentir ansioso é algo ruim, é uma sensação natural. Saiba interpretá-la e conviver com ela para se sentir menos desgastado..."
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Espero que esses conselhos tenham sido úteis $nome 🫶"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Você deseja receber mais conselhos?"],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

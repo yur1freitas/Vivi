@@ -1,0 +1,48 @@
+{
+    "id": "689e746b-f0cb-4361-8932-b17767c4c2cb",
+    "parentId": "5b121108-e262-4d69-bdbe-6ca71ca4e2cc",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Ansiedade.continue.fallback",
+    "contexts": ["Ansiedade_suboption", "Submenu-Conselhos"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Ansiedade_suboption",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Submenu-Conselhos",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "😅 Desculpe! Não entendi o que disse, poderia repetir?"
+                    ],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

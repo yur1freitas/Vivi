@@ -1,0 +1,48 @@
+{
+    "id": "5171592f-c353-4c7f-898e-f92bfa1181f7",
+    "parentId": "a54a5888-ef7b-4fa2-a2e9-bd21febf4b37",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Sindrome-Impostor.fallback",
+    "contexts": ["Sindrome-Impostor_suboption", "Submenu-Conselhos"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Sindrome-Impostor_suboption",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Submenu-Conselhos",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "😅 Desculpe! Não entendi o que disse, poderia repetir?"
+                    ],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

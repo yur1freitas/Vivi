@@ -1,0 +1,147 @@
+{
+    "id": "ee4f0116-23d9-4382-9354-12babb7c8a22",
+    "parentId": "c16419dc-ef22-4cbd-ad4e-d4564ade8520",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Contato.confirm.yes",
+    "auto": true,
+    "contexts": ["Mal_suboption"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Menu-Principal",
+                    "lifespan": 1
+                },
+                {
+                    "name": "Sair",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "e35f054c-fac2-4eb5-b44d-0bce292cf69a",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Mal_suboption.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Você pode ligar para o **CVV - 118**, disponível 24h, ou acessar cvv.org.br para conversar online"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Também é importante procurar um psicólogo ou médico de confiança"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Fique bem $nome! Vai dá tudo certo! ❤️"],
+                    "condition": ""
+                },
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "callback_data": "Sim",
+                                            "text": "Sim"
+                                        },
+                                        {
+                                            "text": "Não",
+                                            "callback_data": "Não"
+                                        }
+                                    ]
+                                ]
+                            },
+                            "text": "Por acaso que continuar conversando?"
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Você pode ligar para o CVV - 118, disponível 24h, ou acessar cvv.org.br para conversar online"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Também é importante procurar um psicólogo ou médico de confiança"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Fique bem $nome! Vai dá tudo certo! ❤️"],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Por acaso você ainda quer continuar conversando?"
+                    ],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

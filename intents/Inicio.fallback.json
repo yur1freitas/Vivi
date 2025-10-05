@@ -1,0 +1,39 @@
+{
+    "id": "ae0d36e1-cb01-44a8-a982-298da0218847",
+    "name": "Inicio.fallback",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "😅 Ops! Estou meio desatenta, poderia repetir?",
+                        "😅 Desculpe! Não entendi o que disse, poderia repetir?"
+                    ],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

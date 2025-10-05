@@ -1,0 +1,107 @@
+{
+    "id": "2cad38bd-6b1d-4001-888d-747db2841a35",
+    "parentId": "aaee8506-b65c-4165-9846-b6dc40e77539",
+    "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Conselhos.option",
+    "auto": true,
+    "contexts": ["Nome_input"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Conselhos_option",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "4afed48b-a69b-4feb-964f-93ff33dabb8d",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Nome_input.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "0",
+                    "platform": "telegram",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Claro! Posso te dar alguns conselhos $nome"],
+                    "condition": ""
+                },
+                {
+                    "type": "4",
+                    "platform": "telegram",
+                    "title": "",
+                    "payload": {
+                        "telegram": {
+                            "reply_markup": {
+                                "inline_keyboard": [
+                                    [
+                                        {
+                                            "text": "Ansiedade",
+                                            "callback_data": "Ansiedade"
+                                        },
+                                        {
+                                            "callback_data": "Síndrome do Impostor",
+                                            "text": "Síndrome do Impostor"
+                                        }
+                                    ]
+                                ]
+                            },
+                            "text": "Você quer ouvir conselhos sobre o quê?"
+                        }
+                    },
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Claro! Posso te dar alguns conselhos $nome"],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["Você quer ouvir conselhos sobre o quê?"],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["1. Ansiedade\n2. Síndrome do Impostor"],
+                    "condition": ""
+                }
+            ],
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

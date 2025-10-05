@@ -1,0 +1,119 @@
+[
+  {
+    "id": "b86106bd-d1ab-415c-acc8-42ca037b8ba8",
+    "data": [
+      {
+        "text": "dois",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e6a728c3-baff-4385-9494-e92bb8383747",
+    "data": [
+      {
+        "text": "2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "28bf04e9-ed6a-49d8-b03a-51e24d9f9991",
+    "data": [
+      {
+        "text": "preciso de conselhos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "dcfe121d-bbe4-4d88-b58c-e1ba2550538a",
+    "data": [
+      {
+        "text": "quero conselhos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a3ee2575-e406-43cc-b239-dda891ec4131",
+    "data": [
+      {
+        "text": "dar conselhos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b303af3e-55d4-4d5f-814a-c0082a7b9d3c",
+    "data": [
+      {
+        "text": "aconselhar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a662c2a5-324a-46a4-ac3e-9ce55537308a",
+    "data": [
+      {
+        "text": "ideias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1f8a3fba-7ffa-4832-9317-e759bb9888cb",
+    "data": [
+      {
+        "text": "dicas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7ba711b3-4daf-44fc-b7d8-4faeee4e8841",
+    "data": [
+      {
+        "text": "conselhos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,42 @@
+{
+    "id": "a949b47f-c979-448e-b407-032b88a8fa75",
+    "parentId": "aaee8506-b65c-4165-9846-b6dc40e77539",
+    "rootParentId": "aaee8506-b65c-4165-9846-b6dc40e77539",
+    "name": "Nome.fallback",
+    "contexts": ["Bem-Vindo", "Menu-Principal"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "Nome_input",
+            "affectedContexts": [
+                {
+                    "name": "Bem-Vindo",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": ["😅 Desculpe, mas esse nome é inválido"],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

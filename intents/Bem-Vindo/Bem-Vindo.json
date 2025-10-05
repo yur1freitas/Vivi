@@ -1,0 +1,60 @@
+{
+    "id": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+    "name": "Bem-Vindo",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Bem-Vindo",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Oiii, meu nome é Vivi! Mas também pode me chamar de amiga durante os momentos difíceis!"
+                    ],
+                    "condition": ""
+                },
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Eu gostaria de conhecer um pouco sobre você, então por que não me diz o seu nome?"
+                    ],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [
+        {
+            "name": "WELCOME"
+        },
+        {
+            "name": "TELEGRAM_WELCOME"
+        }
+    ],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+}

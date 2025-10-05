@@ -1,0 +1,67 @@
+[
+  {
+    "id": "5001104a-a599-43eb-ae74-bc05e2fd9127",
+    "data": [
+      {
+        "text": "claro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "28845e77-310b-4b56-9a68-c37d5ea4cff6",
+    "data": [
+      {
+        "text": "com certeza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "66280141-f205-4dd0-8005-c57292dbfc58",
+    "data": [
+      {
+        "text": "faça isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f6f90ada-7e74-4bb7-8fa8-5253efddafa1",
+    "data": [
+      {
+        "text": "positivo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2d66b544-07ad-4ecc-b06a-0bff54f9fe13",
+    "data": [
+      {
+        "text": "sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

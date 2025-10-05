@@ -1,0 +1,198 @@
+[
+  {
+    "id": "7f1e9c77-6406-4ad1-8e8f-cb3ba0796f4e",
+    "data": [
+      {
+        "text": "Pode me chamar por ",
+        "userDefined": false
+      },
+      {
+        "text": "Rafael",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b8a0ab2e-3780-40ed-85ec-864b0e9191bf",
+    "data": [
+      {
+        "text": "Sou conhecido como ",
+        "userDefined": false
+      },
+      {
+        "text": "Leandro",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d2e59d8d-2c0c-4cc2-8b4a-47e1e1a83776",
+    "data": [
+      {
+        "text": "Me chamo ",
+        "userDefined": false
+      },
+      {
+        "text": "Joaquim",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "29eb7b13-16bd-4491-8c8b-eb0f4b40e597",
+    "data": [
+      {
+        "text": "Meu nome é ",
+        "userDefined": false
+      },
+      {
+        "text": "Miguel",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "23bc3f8a-1c3c-41db-abae-6fd0cbfb7ec3",
+    "data": [
+      {
+        "text": "Faby",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "391b8c47-92cc-4f18-910d-e2c6d9abec1a",
+    "data": [
+      {
+        "text": "Duda",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "31cc307b-6071-4964-bcbe-02bc22132437",
+    "data": [
+      {
+        "text": "Daniel",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "94777b23-ba99-4bbf-81fe-7a96af8b9f85",
+    "data": [
+      {
+        "text": "Eduardo",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "be7b6cb1-320b-4619-a336-18008a8c50d8",
+    "data": [
+      {
+        "text": "Ana",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5f75c3f1-d142-459b-bbed-cb413081dc1f",
+    "data": [
+      {
+        "text": "Maria",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "4c17b0e9-5505-4e4a-b555-9fa6635b78d8",
+    "data": [
+      {
+        "text": "Yuri",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "fe02f537-8772-4037-83f9-a68a3aa9c445",
+    "data": [
+      {
+        "text": "João",
+        "meta": "@sys.given-name",
+        "alias": "nome",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

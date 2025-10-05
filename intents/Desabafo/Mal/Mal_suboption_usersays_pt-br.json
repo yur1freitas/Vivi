@@ -1,0 +1,132 @@
+[
+  {
+    "id": "c95919bf-0f9e-4aa6-bf5a-4a4320866d3f",
+    "data": [
+      {
+        "text": "um",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "eb682393-9578-4ce6-9d7d-4f874cea651d",
+    "data": [
+      {
+        "text": "1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c644df9c-0855-4478-bad3-4b0c798d7782",
+    "data": [
+      {
+        "text": "mau",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3c21f5b8-d722-40bd-baeb-77af50c4b8b9",
+    "data": [
+      {
+        "text": "triste",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "dfef9be7-029a-4aff-94f2-dd6d9880963c",
+    "data": [
+      {
+        "text": "infeliz",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e31cc9cc-6810-4d75-a87e-558b470a68d0",
+    "data": [
+      {
+        "text": "depressivo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3695541d-995e-435b-b1ad-a61a381ae2cf",
+    "data": [
+      {
+        "text": "negativo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a8cfaf0a-3eca-449b-8aba-00220cf6bdfc",
+    "data": [
+      {
+        "text": "ruim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c42c60dd-91aa-4b63-9abf-a059d0de5284",
+    "data": [
+      {
+        "text": "péssimo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f421d11f-553b-4e56-b784-d832511923c8",
+    "data": [
+      {
+        "text": "mal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

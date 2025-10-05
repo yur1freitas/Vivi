@@ -1,0 +1,61 @@
+{
+    "id": "3fd191b4-7ea0-4e44-96ac-b2cd5e0c6da4",
+    "name": "Sair",
+    "auto": true,
+    "contexts": ["Sair"],
+    "responses": [
+        {
+            "resetContexts": false,
+            "action": "",
+            "affectedContexts": [
+                {
+                    "name": "Sair",
+                    "lifespan": 1
+                }
+            ],
+            "parameters": [
+                {
+                    "id": "a7499bca-c5a0-4782-ae14-8e2e807172f1",
+                    "name": "nome",
+                    "required": false,
+                    "dataType": "@sys.given-name",
+                    "value": "$nome",
+                    "defaultValue": "#Sair.nome",
+                    "isList": false,
+                    "prompts": [],
+                    "promptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "noInputPromptMessages": [],
+                    "outputDialogContexts": []
+                }
+            ],
+            "messages": [
+                {
+                    "type": "0",
+                    "title": "",
+                    "textToSpeech": "",
+                    "lang": "pt-br",
+                    "speech": [
+                        "Ok $nome, foi bom falar com você. Lembre-se que pode me chamar a hora que quiser. Bjs 💋",
+                        "Beleza, obrigado por conversar comigo $nome! Me mande um \u0027oi\u0027 se precisar",
+                        "Certo $nome, se cuida! Não hesite em me enviar mensagem 👋"
+                    ],
+                    "condition": ""
+                }
+            ],
+            "defaultResponsePlatforms": {
+                "telegram": true
+            },
+            "speech": []
+        }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "endInteraction": true
+}

@@ -1,0 +1,132 @@
+{
+  "id": "c16419dc-ef22-4cbd-ad4e-d4564ade8520",
+  "parentId": "db0cda99-0980-4e54-b8b6-3b689657e59e",
+  "rootParentId": "41d38813-268f-4e33-89ab-7d7b7fa5af85",
+  "name": "Mal.suboption",
+  "auto": true,
+  "contexts": [
+    "Desabafo_option"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Mal_suboption",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d5f00edd-f1ba-4964-b84d-78f6d34198dc",
+          "name": "nome",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "value": "$nome",
+          "defaultValue": "#Desabafo_option.nome",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Sinto muito que você esteja passando por um momento difícil..."
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Saiba que você não está sozinho(a) nessa."
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "telegram",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "Sim",
+                      "text": "Sim"
+                    },
+                    {
+                      "text": "Não",
+                      "callback_data": "Não"
+                    }
+                  ]
+                ]
+              },
+              "text": "Você quer que eu compartilhe um contato de ajuda profissional?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sinto muito que você esteja passando por um momento difícil..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Saiba que você não está sozinho(a) nessa."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Você quer que eu compartilhe um contato de ajuda profissional?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
